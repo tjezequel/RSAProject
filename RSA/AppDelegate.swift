@@ -9,6 +9,7 @@
 import Cocoa
 
 @NSApplicationMain
+///:nodoc:
 class AppDelegate: NSObject, NSApplicationDelegate {
 
 
