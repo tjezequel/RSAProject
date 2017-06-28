@@ -7,19 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004919336B7943E5001ED683 /* Pods_RSATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB183DBA92E86AAA465890C3 /* Pods_RSATests.framework */; };
+		726B38302031EC783CB4C10E /* Pods_RSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D801FA1322C60F076A809A70 /* Pods_RSA.framework */; };
 		E9AF390F1F02F47A00548626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF390E1F02F47A00548626 /* AppDelegate.swift */; };
 		E9AF39111F02F47A00548626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF39101F02F47A00548626 /* ViewController.swift */; };
 		E9AF39131F02F47A00548626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AF39121F02F47A00548626 /* Assets.xcassets */; };
 		E9AF39161F02F47A00548626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AF39141F02F47A00548626 /* Main.storyboard */; };
+		E9FC83221F02FFB300F21147 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC83211F02FFB300F21147 /* Crypto.swift */; };
+		E9FC832A1F03006E00F21147 /* RSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC83291F03006E00F21147 /* RSATests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E9FC832C1F03006E00F21147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9AF39031F02F47A00548626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9AF390A1F02F47A00548626;
+			remoteInfo = RSA;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4D9C1D9943BBDEEA6533CDEC /* Pods-RSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSA/Pods-RSA.debug.xcconfig"; sourceTree = "<group>"; };
+		51E75BC1FA0C69361E175DFF /* Pods-RSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSA.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSA/Pods-RSA.release.xcconfig"; sourceTree = "<group>"; };
+		860C662A19C4C20FFF78BBC1 /* Pods-RSATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSATests/Pods-RSATests.release.xcconfig"; sourceTree = "<group>"; };
+		B0390B716C3E33BB4DE4CA4F /* Pods-RSATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSATests/Pods-RSATests.debug.xcconfig"; sourceTree = "<group>"; };
+		D801FA1322C60F076A809A70 /* Pods_RSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AF390B1F02F47A00548626 /* RSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AF390E1F02F47A00548626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9AF39101F02F47A00548626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9AF39121F02F47A00548626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9AF39151F02F47A00548626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9AF39171F02F47A00548626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FC83211F02FFB300F21147 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		E9FC83271F03006E00F21147 /* RSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FC83291F03006E00F21147 /* RSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSATests.swift; sourceTree = "<group>"; };
+		E9FC832B1F03006E00F21147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB183DBA92E86AAA465890C3 /* Pods_RSATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +51,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				726B38302031EC783CB4C10E /* Pods_RSA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FC83241F03006E00F21147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004919336B7943E5001ED683 /* Pods_RSATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F446406FF8106A472139E73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D801FA1322C60F076A809A70 /* Pods_RSA.framework */,
+				EB183DBA92E86AAA465890C3 /* Pods_RSATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4531D8CE42B37C1C0D7E1311 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D9C1D9943BBDEEA6533CDEC /* Pods-RSA.debug.xcconfig */,
+				51E75BC1FA0C69361E175DFF /* Pods-RSA.release.xcconfig */,
+				B0390B716C3E33BB4DE4CA4F /* Pods-RSATests.debug.xcconfig */,
+				860C662A19C4C20FFF78BBC1 /* Pods-RSATests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E9AF39021F02F47A00548626 = {
 			isa = PBXGroup;
 			children = (
 				E9AF390D1F02F47A00548626 /* RSA */,
+				E9FC83281F03006E00F21147 /* RSATests */,
 				E9AF390C1F02F47A00548626 /* Products */,
+				4531D8CE42B37C1C0D7E1311 /* Pods */,
+				0F446406FF8106A472139E73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				E9AF390B1F02F47A00548626 /* RSA.app */,
+				E9FC83271F03006E00F21147 /* RSATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,8 +114,18 @@
 				E9AF39121F02F47A00548626 /* Assets.xcassets */,
 				E9AF39141F02F47A00548626 /* Main.storyboard */,
 				E9AF39171F02F47A00548626 /* Info.plist */,
+				E9FC83211F02FFB300F21147 /* Crypto.swift */,
 			);
 			path = RSA;
+			sourceTree = "<group>";
+		};
+		E9FC83281F03006E00F21147 /* RSATests */ = {
+			isa = PBXGroup;
+			children = (
+				E9FC83291F03006E00F21147 /* RSATests.swift */,
+				E9FC832B1F03006E00F21147 /* Info.plist */,
+			);
+			path = RSATests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9AF391A1F02F47A00548626 /* Build configuration list for PBXNativeTarget "RSA" */;
 			buildPhases = (
+				BDFA76B279C1B488C1F98B51 /* [CP] Check Pods Manifest.lock */,
 				E9AF39071F02F47A00548626 /* Sources */,
 				E9AF39081F02F47A00548626 /* Frameworks */,
 				E9AF39091F02F47A00548626 /* Resources */,
+				56C95D6122EA641E6D156326 /* [CP] Embed Pods Frameworks */,
+				E2CC301601AD6F88047F5D14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -80,6 +150,27 @@
 			productName = RSA;
 			productReference = E9AF390B1F02F47A00548626 /* RSA.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E9FC83261F03006E00F21147 /* RSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9FC832E1F03006E00F21147 /* Build configuration list for PBXNativeTarget "RSATests" */;
+			buildPhases = (
+				166B282CD1006D1FD4BB332C /* [CP] Check Pods Manifest.lock */,
+				E9FC83231F03006E00F21147 /* Sources */,
+				E9FC83241F03006E00F21147 /* Frameworks */,
+				E9FC83251F03006E00F21147 /* Resources */,
+				E4A7E6808F8E3BB3493DAF02 /* [CP] Embed Pods Frameworks */,
+				13DF5A07DCB72EDF840667CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9FC832D1F03006E00F21147 /* PBXTargetDependency */,
+			);
+			name = RSATests;
+			productName = RSATests;
+			productReference = E9FC83271F03006E00F21147 /* RSATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +186,12 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 77Q7ZR6438;
 						ProvisioningStyle = Automatic;
+					};
+					E9FC83261F03006E00F21147 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 77Q7ZR6438;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9AF390A1F02F47A00548626;
 					};
 				};
 			};
@@ -112,6 +209,7 @@
 			projectRoot = "";
 			targets = (
 				E9AF390A1F02F47A00548626 /* RSA */,
+				E9FC83261F03006E00F21147 /* RSATests */,
 			);
 		};
 /* End PBXProject section */
@@ -126,19 +224,136 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9FC83251F03006E00F21147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13DF5A07DCB72EDF840667CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSATests/Pods-RSATests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		166B282CD1006D1FD4BB332C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56C95D6122EA641E6D156326 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSA/Pods-RSA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDFA76B279C1B488C1F98B51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2CC301601AD6F88047F5D14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSA/Pods-RSA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A7E6808F8E3BB3493DAF02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSATests/Pods-RSATests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9AF39071F02F47A00548626 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FC83221F02FFB300F21147 /* Crypto.swift in Sources */,
 				E9AF39111F02F47A00548626 /* ViewController.swift in Sources */,
 				E9AF390F1F02F47A00548626 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9FC83231F03006E00F21147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FC832A1F03006E00F21147 /* RSATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9FC832D1F03006E00F21147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9AF390A1F02F47A00548626 /* RSA */;
+			targetProxy = E9FC832C1F03006E00F21147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E9AF39141F02F47A00548626 /* Main.storyboard */ = {
@@ -246,6 +461,7 @@
 		};
 		E9AF391B1F02F47A00548626 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D9C1D9943BBDEEA6533CDEC /* Pods-RSA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -260,6 +476,7 @@
 		};
 		E9AF391C1F02F47A00548626 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E75BC1FA0C69361E175DFF /* Pods-RSA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -269,6 +486,38 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fr.tjezequel.RSA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E9FC832F1F03006E00F21147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0390B716C3E33BB4DE4CA4F /* Pods-RSATests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 77Q7ZR6438;
+				INFOPLIST_FILE = RSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tjezequel.RSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSA.app/Contents/MacOS/RSA";
+			};
+			name = Debug;
+		};
+		E9FC83301F03006E00F21147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 860C662A19C4C20FFF78BBC1 /* Pods-RSATests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 77Q7ZR6438;
+				INFOPLIST_FILE = RSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tjezequel.RSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSA.app/Contents/MacOS/RSA";
 			};
 			name = Release;
 		};
@@ -289,6 +538,15 @@
 			buildConfigurations = (
 				E9AF391B1F02F47A00548626 /* Debug */,
 				E9AF391C1F02F47A00548626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9FC832E1F03006E00F21147 /* Build configuration list for PBXNativeTarget "RSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FC832F1F03006E00F21147 /* Debug */,
+				E9FC83301F03006E00F21147 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
