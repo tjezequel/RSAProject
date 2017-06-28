@@ -1,4 +1,4 @@
-#RSA Project
+# RSA Project
 --- 
 
 This project is my implementation of the RSA encryption in Swift. This version is very limited but can encrypt and decrypt a String. Tested on macOS 10.12. 
